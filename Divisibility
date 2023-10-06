@@ -1,0 +1,6 @@
+nm = []
+for i in range(10,101):
+    if (i%7==0):
+        nm.append(str(i))
+        
+print(', '.join(nm))
